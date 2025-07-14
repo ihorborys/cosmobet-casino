@@ -1,4 +1,4 @@
-# Cosmobet Casino Landing Page
+# Cosmobet Casino
 
 Це адаптивний лендінг Cosmobet Casino, зроблений орієнтуючись на стиль сайту [cosmobet.com](https://cosmobet.com/en).
 
