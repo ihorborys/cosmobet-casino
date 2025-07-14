@@ -1,10 +1,10 @@
 # Cosmobet Casino Landing Page
 
-Це адаптивний лендінг Cosmobet Casino, зроблений за мотивами офіційного сайту [cosmobet.com](https://cosmobet.com/en).
+Це адаптивний лендінг Cosmobet Casino, зроблений орієнтуючись на стиль сайту [cosmobet.com](https://cosmobet.com/en).
 
 ---
 
-## Опис проекту
+## Опис проєкту
 
 Проєкт містить:
 
