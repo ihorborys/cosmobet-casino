@@ -1,0 +1,47 @@
+.header {
+  width: 100%;
+}
+
+.header__logo_log_reg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header__log_button, .header__reg_button {
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+
+
+.header__log_button:hover, .header__reg_button:hover {
+  opacity: 0.9;
+}
+
+.header__log_button {
+  background-color: var(--red);
+  color: var(--text);
+}
+
+.header__reg_button {
+  background-color: var(--cyan);
+}
+
+.header__nav_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav_link {
+  transition: color 0.2s ease-in-out;
+}
+
+.header__nav_link:hover {
+  color: var(--cyan);
+}
