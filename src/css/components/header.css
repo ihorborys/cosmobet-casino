@@ -1,5 +1,10 @@
 .header {
+  position: sticky;
+  top: 0;
+  left: 0;
   width: 100%;
+  background-color: var(--black);
+  z-index: 1000;
 }
 
 .header__container {
@@ -40,7 +45,7 @@
 
 .header__nav_list {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
