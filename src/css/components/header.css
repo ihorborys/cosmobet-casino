@@ -2,15 +2,17 @@
   width: 100%;
 }
 
-.header__logo_log_reg {
+.header__container {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
   margin-bottom: 20px;
 }
 
-.header__log_button, .header__reg_button {
-  font-size: 12px;
+.header__log_btn, .header__reg_btn {
+  font-size: 14px;
   font-weight: bold;
   border-radius: 5px;
   padding: 5px;
@@ -18,30 +20,43 @@
   transition: opacity 0.2s ease-in-out;
 }
 
-
-.header__log_button:hover, .header__reg_button:hover {
+.header__log_btn:hover, .header__reg_btn:hover {
   opacity: 0.9;
 }
 
-.header__log_button {
+.header__log_btn {
   background-color: var(--red);
   color: var(--text);
 }
 
-.header__reg_button {
+.header__reg_btn {
   background-color: var(--cyan);
 }
 
 .header__nav_list {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .header__nav_link {
+  font-size: 18px;
+  padding: 10px 20px;
+  text-transform: uppercase;
   transition: color 0.2s ease-in-out;
 }
 
 .header__nav_link:hover {
   color: var(--cyan);
+}
+
+@media screen and (min-width: 768px) {
+  .header__container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
 }
