@@ -16,7 +16,7 @@ body {
   /*justify-content: center;*/
   align-items: center;
   /*padding: 20px 40px;*/
-  gap: 40px;
+  gap: 20px;
   min-width: 400px;
   min-height: 100vh;
   background-color: var(--black);
@@ -30,6 +30,10 @@ body {
 @media screen and (min-width: 768px) {
   .container {
     padding: 40px 80px;
+  }
+
+  body {
+    gap: 40px;
   }
 }
 
