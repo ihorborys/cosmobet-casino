@@ -29,6 +29,10 @@
 }
 
 .content__banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 400px;
   height: 100px;
   background-image: url('../../img/banner.webp');
@@ -36,6 +40,34 @@
   background-position: top;
   background-repeat: no-repeat;
   border-radius: 25px 25px 0 0;
+}
+
+.content__banner div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__banner h2 {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--goldenrod);
+}
+
+.content__banner button {
+  background-color: var(--cyan);
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.content__banner button:hover {
+  background-color: var(--red);
+  color: var(--white);
 }
 
 @media screen and (min-width: 768px) {
@@ -50,6 +82,10 @@
 
   .content__title h1 {
     margin-bottom: 20px;
+  }
+
+  .content__banner h2 {
+    font-size: 30px;
   }
 }
 
