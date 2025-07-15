@@ -58,15 +58,16 @@
 .content__banner button {
   background-color: var(--cyan);
   border: none;
-  border-radius: 25px;
-  padding: 10px;
+  border-radius: 15px;
+  padding: 5px;
   cursor: pointer;
-  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, transform 0.4s ease-in-out;
 }
 
 .content__banner button:hover {
   background-color: var(--red);
   color: var(--white);
+  transform: scale(1.1);
 }
 
 @media screen and (min-width: 768px) {
@@ -89,6 +90,7 @@
 
   .content__banner button {
     font-weight: bold;
+    padding: 10px;
   }
 }
 

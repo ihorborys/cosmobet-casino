@@ -10,6 +10,10 @@
   gap: 10px;
 }
 
+.header__log_btn {
+  margin-right: 10px;
+}
+
 .header__log_btn, .header__reg_btn {
   font-size: 12px;
   font-weight: bold;
@@ -17,11 +21,12 @@
   border-radius: 5px;
   padding: 5px;
   cursor: pointer;
-  transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
 }
 
 .header__log_btn:hover, .header__reg_btn:hover {
   opacity: 0.9;
+  transform: scale(1.1);
 }
 
 .header__log_btn {
