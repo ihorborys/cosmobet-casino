@@ -8,8 +8,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-
 }
 
 .footer__nav_list {
@@ -44,5 +42,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
