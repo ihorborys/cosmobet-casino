@@ -31,7 +31,7 @@
 }
 
 .header__log_btn:hover, .header__reg_btn:hover {
-  opacity: 0.9;
+  opacity: 0.8;
   transform: scale(1.1);
 }
 
