@@ -18,7 +18,7 @@
 }
 
 .footer__nav_link {
-  font-size: 18px;
+  font-size: 16px;
   padding: 10px 20px;
   text-transform: uppercase;
   transition: color 0.4s ease-in-out;
@@ -56,8 +56,22 @@
   opacity: 0.8;
 }
 
+@media screen and (min-width: 768px) {
+  .footer__nav_link {
+    font-size: 18px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   footer .container {
     padding: 10px 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__payment_logo {
+    width: auto;
+    height: 36px;
+    max-width: 100%;
   }
 }
