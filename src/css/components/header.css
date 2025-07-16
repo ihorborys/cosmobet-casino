@@ -5,6 +5,7 @@
   width: 100%;
   background-color: var(--black);
   z-index: 1000;
+  border-bottom: 1px solid var(--red);
 }
 
 .header__container {

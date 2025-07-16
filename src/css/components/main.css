@@ -1,9 +1,4 @@
 .content__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
 }
 
 .content__title {
@@ -11,7 +6,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .content__title h1 {
@@ -32,12 +26,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  width: 400px;
-  height: 100px;
+  height: 150px;
+  margin: 10px 0;
   background-image: url('../../img/banner.webp');
-  background-size: contain;
-  background-position: top;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   border-radius: 25px 25px 0 0;
 }
@@ -72,16 +65,7 @@
 
 @media screen and (min-width: 768px) {
   .content__banner {
-    width: 768px;
     height: 192px;
-  }
-
-  .content__container {
-    gap: 40px;
-  }
-
-  .content__title h1 {
-    margin-bottom: 20px;
   }
 
   .content__banner h2 {
@@ -96,7 +80,6 @@
 
 @media screen and (min-width: 1200px) {
   .content__banner {
-    width: 1200px;
-    height: 300px;
+    /*height: 300px;*/
   }
 }
