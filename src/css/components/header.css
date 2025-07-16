@@ -3,9 +3,9 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--black);
+  background-color: var(--black-grey);
   z-index: 1000;
-  border-bottom: 1px solid var(--red);
+  /*border-bottom: 1px solid var(--red);*/
 }
 
 .header__container {

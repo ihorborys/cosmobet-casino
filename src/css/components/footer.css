@@ -1,6 +1,7 @@
 .footer {
   width: 100%;
   border-top: 1px solid var(--red);
+  background-color: var(--black-grey);
 }
 
 .footer__container {
@@ -33,6 +34,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  background-color: var(--black-grey);
 }
 
 .footer__payment_logo {
@@ -43,5 +45,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  footer .container {
+    padding: 10px 80px;
+  }
 }
